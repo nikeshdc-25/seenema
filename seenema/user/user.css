@@ -1,0 +1,48 @@
+.user-container {
+    position: relative;
+}
+
+.user-logo {
+    padding-left: 20px;
+    background: none !important;
+    border: none !important;
+    cursor: pointer;
+    color: rgb(210, 208, 208);
+}
+
+.user-menu {
+    position: fixed;
+    display: flex;
+    width: auto;
+    margin-top: 150px;
+    background-color: #232225;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.user-menu p {
+    color:#a6a9a6;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.logout-button {
+    background-color: #232225;
+    border: none;
+    color: #bf2929;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.logout-button i {
+    font-size:larger;
+}
+.fa-sign-out{
+    margin-right: 10px;
+    color: aqua;
+}
